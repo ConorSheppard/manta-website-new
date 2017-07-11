@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+body {
+    margin: 0 auto;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased; }
+
+
+
+html, body {
+    background: #ffdb96;
+    background: -webkit-radial-gradient(rgba(255, 219, 150, 0.2), rgba(255, 219, 150, 0.5), #ffdb96);
+    /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(rgba(255, 219, 150, 0.2), rgba(255, 219, 150, 0.5), #ffdb96);
+    /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(rgba(255, 219, 150, 0.2), rgba(255, 219, 150, 0.5), #ffdb96);
+    /* For Firefox 3.6 to 15 */
+    background: radial-gradient(rgba(255, 219, 150, 0.2), rgba(255, 219, 150, 0.5), #ffdb96);
+    /* Standard syntax */
+    height: 100%;
+    margin: 0;
+}
+
+.mainwrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -20px; }
+
+.manta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: auto; }
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0; }
+nav a {
+    font-size: 70px;
+    padding: 10px 16px;
+    text-decoration: none; }
+nav a:hover {
+    font-size: 72px;
+    text-decoration: none; }
+nav a:link, nav a:visited, nav a:active {
+    text-decoration: none; }
+
+.nav-left, .nav-right {
+    font-family: 'Sofia';
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.nav-right {
+    left: 80%; }
+
+.about-link {
+    color: #3b2d82; }
+
+.blog-link {
+    color: #fb7c81; }
+
+.listen-link {
+    color: #0bd78e; }
+
+.contact-link {
+    color: #bfb18a; }
+
+@media screen and (max-width: 770px) {
+    .manta {
+        display: block;
+        max-height: none;
+        width: 100%;
+        left: 0;
+        height: auto;
+        overflow: hidden; }
+
+    .mainmenu {
+        display: none; } }
+@media screen and (max-width: 650px) {
+    .manta {
+        width: 120%;
+        left: -10%; } }
+@media screen and (max-width: 550px) {
+    .manta {
+        width: 140%;
+        left: -20%; } }
+@media screen and (max-width: 400px) {
+    .manta {
+        width: 160%;
+        left: -30%; } }
+.header-social-icons {
+    font-size: 16px;
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    z-index: 2;
+    top: 7%;
+    left: 78%;
+    size: 50px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+ul.social-icons {
+    margin-top: 10px; }
+
+.social-icons li {
+    vertical-align: top;
+    display: inline; }
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none; }
+
+.social-icons a:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.fa-envelope, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
+    padding: 0.5em;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s; }
+
+.fa-envelope:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-instagram:hover {
+    background-color: #3d5b99; }
+
+.fa-envelope:hover {
+    background-color: #FFDB96; }
+
+.fa-twitter:hover {
+    background-color: #00aced; }
+
+.fa-youtube:hover {
+    background-color: #e64a41; }
+
+.fa-instagram:hover {
+    background-color: #0073a4; }
+
+/*# sourceMappingURL=main.css.map */
