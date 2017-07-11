@@ -135,7 +135,8 @@ ul.social-icons {
     -ms-transition: .5s;
     -moz-transition: .5s;
     -webkit-transition: .5s;
-    transition: .5s; }
+    transition: .5s;
+    font-size: 40px; }
 
 .fa-envelope:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-instagram:hover {
     background-color: #3d5b99; }

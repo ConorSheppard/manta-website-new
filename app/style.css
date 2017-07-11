@@ -314,36 +314,43 @@ h1{
 	color: #fff;
 }
 
-iframe.what {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate3d(-85%, -120%, 0);
+.list-text {
+	font-size: 32px;
+	line-height: 40px;
 }
 
-iframe.thisFrame {
+/*iframe.what {*/
 	/*position: absolute;*/
-	top: 50%;
+	/*top: 50%;*/
 	/*left: 50%;*/
+	/*transform: translate3d(-50%, -50%, 0);*/
+/*}*/
+
+/*iframe.thisFrame {
+	!*position: absolute;*!
+	top: 50%;
+	!*left: 50%;*!
 	transform: translate3d(-50%, -50%, 0);
-}
+}*/
 
 div.contact-div {
 }
 
 .contact {
 	font-family: 'Sofia';
-	font-size: 5em;
+	font-size: 4em;
 	position: absolute;
 	top: 10%;
 	left: 50%;
 	transform: translate3d(-50%, -50%, 0);
 }
 
+
 div.social-icons-contact {
 	position: absolute;
 	top: 20%;
 	left: 32%;
+	text-align:left;
 }
 
 ul.social-icons-contact {
