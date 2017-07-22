@@ -61,10 +61,12 @@ nav a:link, nav a:visited, nav a:active {
     left: 20%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+}
 
 .nav-right {
-    left: 80%; }
+    left: 80%;
+}
 
 .about-link {
     color: #3b2d82; }
@@ -78,6 +80,7 @@ nav a:link, nav a:visited, nav a:active {
 .contact-link {
     color: #bfb18a; }
 
+
 @media screen and (max-width: 770px) {
     .manta {
         display: block;
@@ -85,24 +88,71 @@ nav a:link, nav a:visited, nav a:active {
         width: 100%;
         left: 0;
         height: auto;
-        overflow: hidden; }
+        overflow: hidden;
+    }
 
     .mainmenu {
-        display: none; } }
+        /*display: none;*/
+    }
+
+    .mobiletitle {
+        display: block;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+
+    nav a {
+        font-size: 25px;
+    }
+
+    div.social-icons-contact {
+        left: 10%;
+        font-size: 10px;
+    }
+
+    .contact {
+        font-size: 30px;
+    }
+
+    .list-text {
+        font-size: 15px;
+    }
+}
 @media screen and (max-width: 650px) {
     .manta {
         width: 120%;
-        left: -10%; } }
+        left: -10%;
+    }
+    .social-icons-contact {
+        left: 0%;
+        font-size: 10px;
+    }
+}
 @media screen and (max-width: 550px) {
     .manta {
         width: 140%;
-        left: -20%; } }
+        left: -20%;
+    }
+    .social-icons-contact {
+        left: 0%;
+        font-size: 10px;
+    }
+}
 @media screen and (max-width: 400px) {
     .manta {
         width: 160%;
-        left: -30%; } }
+        left: -30%;
+    }
+    .social-icons-contact {
+        left: 0%;
+        font-size: 10px;
+    }
+}
+
 .header-social-icons {
-    font-size: 16px;
+    font-size: 20px;
     width: 20%;
     margin: auto;
     position: absolute;
@@ -135,8 +185,7 @@ ul.social-icons {
     -ms-transition: .5s;
     -moz-transition: .5s;
     -webkit-transition: .5s;
-    transition: .5s;
-    font-size: 40px; }
+    transition: .5s;}
 
 .fa-envelope:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-instagram:hover {
     background-color: #3d5b99; }
